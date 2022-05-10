@@ -1,6 +1,112 @@
- MainWidget:
-    
+#:kivy 1.9.2
+<BoxLayoutHangMan>:
+    orientation: "vertical"
+    Label:
+        size_hint: 1, 0.15
+        text: "classic"
+        size_hint:0.1, 1
+    Image:
+        source: "hangman.png"
+        size_hint: 1, 0.54
+    TextInput:
+        size_hint: 1, 0.15
+        text: ""
+        readonly: True
+        multiline: False
+    BoxLayout:
+        orientation: "vertical"
+        BoxLayout:
+            orientation:"horizontal"
+            Button:
+                size_hint: .10, 0.8
+                text: "Q"
+            Button:
+                size_hint: .10, 0.8
+                text: "W"
+            Button:
+                size_hint: .10, 0.8
+                text: "E"
+            Button:
+                size_hint: .10, 0.8
+                text: "R"
+            Button:
+                size_hint: .10, 0.8
+                text: "T"
+            Button:
+                size_hint: .10, 0.8
+                text: "Y"
+            Button:
+                size_hint: .10, 0.8
+                text: "U"
+            Button:
+                size_hint: .10, 0.8
+                text: "I"
+            Button:
+                size_hint: .10, 0.8
+                text: "O"
+            Button:
+                size_hint: .10, 0.8
+                text: "P"
+            Button:
+                size_hint: .10, 0.8
+                text: "Å"
+        BoxLayout:
+            orientation:"horizontal"
+            Button:
+                size_hint: .10, 0.8
+                text: "A"
+            Button:
+                size_hint: .10, 0.8
+                text: "S"
+            Button:
+                size_hint: .10, 0.8
+                text: "D"
+            Button:
+                size_hint: .10, 0.8
+                text: "F"
+            Button:
+                size_hint: .10, 0.8
+                text: "G"
+            Button:
+                size_hint: .10, 0.8
+                text: "H"
+            Button:
+                size_hint: .10, 0.8
+                text: "J"
+            Button:
+                size_hint: .10, 0.8
+                text: "K"
+            Button:
+                size_hint: .10, 0.8
+                text: "L"
+            Button:
+                size_hint: 11/100, 0.8
+                text: "Æ"
+            Button:
+                size_hint: 11/100, 0.8
+                text: "Ø"
+        BoxLayout:
+            orientation:"horizontal"
+            Button:
+                size_hint: 11/100, 0.8
+                text: "Z"
+            Button:
+                size_hint: 11/100, 0.8
+                text: "X"
+            Button:
+                size_hint: 11/100, 0.8
+                text: "C"
+            Button:
+                size_hint: 11/100, 0.8
+                text: "V"
+            Button:
+                size_hint: 11/100, 0.8
+                text: "B"
+            Button:
+                size_hint: 11/100, 0.8
+                text: "N"
+            Button:
+                size_hint: 11/100, 0.8
+                text: "M"
 
-<MainWidget>:
-    Button:
-        text: "Hello i am an APP!"
+    
