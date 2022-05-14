@@ -8,6 +8,7 @@ from kivy.uix.image import Image
 from kivy.uix.button import Button
 from kivy.uix.textinput import TextInput
 from kivy.utils import platform
+from kivy.lang import Builder
 
 class MyGrid(Widget):
     pass
